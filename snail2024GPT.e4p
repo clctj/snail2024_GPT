@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project snail2024GPT -->
+<!-- Saved: 2024-02-06, 22:02:33 -->
+<!-- Copyright (C) 2024 ,  -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>61bc1fe5fcd4354118a4024be20412d7feb627be</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>Gpt_test.py</Source>
+    <Source>Ifasr_new.py</Source>
+    <Source>Markdows格式.py</Source>
+    <Source>Markdows格式2.py</Source>
+    <Source>OCR识别.py</Source>
+    <Source>SparkApi.py</Source>
+    <Source>Ui_snail2020_GPT.py</Source>
+    <Source>Ui_snail2020_xyzGPT.py</Source>
+    <Source>Ui_snail_setGpt.py</Source>
+    <Source>Ui_test_type.py</Source>
+    <Source>Ui_type_win.py</Source>
+    <Source>__init__.py</Source>
+    <Source>qxjyclass_rc.py</Source>
+    <Source>snail2020_GPT.py</Source>
+    <Source>snail2020_GPT_富文本.py</Source>
+    <Source>snail2020_setGpt.py</Source>
+    <Source>snail2020_xyzGPT.py</Source>
+    <Source>snail_setGpt.py</Source>
+    <Source>test_type.py</Source>
+    <Source>type_win_富文本格式.py</Source>
+    <Source>type_win_星火模型.py</Source>
+    <Source>webview2PDF.py</Source>
+    <Source>动态创建列表.py</Source>
+    <Source>星火鉴权.py</Source>
+    <Source>本地渲染公式.py</Source>
+    <Source>汉语拼音.py</Source>
+    <Source>汉语拼音2.py</Source>
+    <Source>汉语拼音3.py</Source>
+    <Source>汉语拼音4.py</Source>
+    <Source>渲染公式.py</Source>
+    <Source>渲染公式2.py</Source>
+    <Source>渲染化学公式.py</Source>
+    <Source>百度千帆.py</Source>
+    <Source>百度千帆UI.py</Source>
+    <Source>百度千帆UI_2.py</Source>
+    <Source>百度千帆多轮.py</Source>
+    <Source>百度千帆流式.py</Source>
+    <Source>百度千帆鉴权.py</Source>
+    <Source>调用本地渲染公式.py</Source>
+    <Source>通义千问.py</Source>
+    <Source>通义千问UI.py</Source>
+    <Source>通义千问prompt格式.py</Source>
+    <Source>通义千问多轮会话.py</Source>
+    <Source>通义千问流式输出.py</Source>
+  </Sources>
+  <Forms>
+    <Form>snail2020_GPT.ui</Form>
+    <Form>snail2020_xyzGPT.ui</Form>
+    <Form>snail_setGpt.ui</Form>
+    <Form>test_type.ui</Form>
+    <Form>type_win.ui</Form>
+  </Forms>
+  <Resources>
+    <Resource>qxjyclass.qrc</Resource>
+  </Resources>
+  <MainScript>snail2020_GPT.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="GNUmakefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="Makefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+    <FiletypeAssociation pattern="makefile" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>

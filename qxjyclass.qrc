@@ -1,0 +1,41 @@
+<RCC>
+  <qresource prefix="snail">
+    <file>qrc/玻璃背景2.png</file>
+    <file>qrc/米黄背景.png</file>
+    <file>qrc/48播放.png</file>
+    <file>qrc/48暂停.png</file>
+    <file>qrc/48保存1.png</file>
+    <file>qrc/48保存2.png</file>
+    <file>qrc/list_loop.png</file>
+    <file>qrc/64gpt2.png</file>
+    <file>qrc/32重复.png</file>
+    <file>qrc/32系统设置.png</file>
+    <file>qrc/hb3.jpg</file>
+    <file>qrc/gpt_man.png</file>
+    <file>qrc/gpt_boy.png</file>
+    <file>qrc/64snailgpt.png</file>
+    <file>qrc/64gpt.png</file>
+    <file>qrc/48拼音1.png</file>
+    <file>qrc/48拼音2.png</file>
+    <file>qrc/48文本语音2.png</file>
+    <file>qrc/48文本语音1.png</file>
+    <file>qrc/64yoga.png</file>
+    <file>qrc/64yoga.png</file>
+    <file>qrc/48下课.png</file>
+    <file>qrc/48信息框.png</file>
+    <file>qrc/clear.png</file>
+    <file>qrc/pause.png</file>
+    <file>qrc/48文本语音.png</file>
+    <file>qrc/zoom-in-symbolic.svg</file>
+    <file>qrc/woman.png</file>
+    <file>qrc/man.png</file>
+    <file>qrc/gril.png</file>
+    <file>qrc/boy.png</file>
+    <file>qrc/zoom-out-symbolic.svg</file>
+    <file>qrc/voice.png</file>
+    <file>qrc/48清屏1.png</file>
+    <file>qrc/48清屏2.png</file>
+    <file>qrc/48退出.png</file>
+    <file>qrc/hb3.jpg</file>
+  </qresource>
+</RCC>

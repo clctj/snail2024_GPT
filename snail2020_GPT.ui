@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Text_win</class>
+ <widget class="QWidget" name="Text_win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1180</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/snail/qrc/玻璃背景2.png);</string>
+  </property>
+  <widget class="QGroupBox" name="tools1">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>720</y>
+     <width>621</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <widget class="QCheckBox" name="boy">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>61</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/boy.png</normaloff>:/snail/qrc/boy.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="gril">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>0</y>
+      <width>61</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/gril.png</normaloff>:/snail/qrc/gril.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="big">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>0</y>
+      <width>35</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/zoom-in-symbolic.svg</normaloff>:/snail/qrc/zoom-in-symbolic.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="small">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>0</y>
+      <width>35</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/zoom-out-symbolic.svg</normaloff>:/snail/qrc/zoom-out-symbolic.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="woman">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>0</y>
+      <width>61</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/woman.png</normaloff>:/snail/qrc/woman.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="man">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>0</y>
+      <width>61</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/man.png</normaloff>:/snail/qrc/man.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="set_gpt">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/32系统设置.png</normaloff>:/snail/qrc/32系统设置.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="repet">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/list_loop.png</normaloff>
+      <normalon>:/snail/qrc/pause.png</normalon>:/snail/qrc/list_loop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="role_list">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>0</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>我的老师</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>写作助理</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>智能出题</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>中英翻译</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>文章润色</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白话转文言</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QTextBrowser" name="type_text">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>911</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/snail/qrc/米黄背景.png);</string>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>输入结束以后，选择转化语音或标注拼音。</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>241</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/snail/qrc/米黄背景.png);</string>
+   </property>
+   <property name="selectionBehavior">
+    <enum>QAbstractItemView::SelectRows</enum>
+   </property>
+   <property name="isWrapping" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="question_Text">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>760</y>
+     <width>871</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 85, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="markdown">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Snail_Gpt">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>770</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="qxjyclass.qrc">
+     <normaloff>:/snail/qrc/64snailgpt.png</normaloff>
+     <normalon>:/snail/qrc/48信息框.png</normalon>:/snail/qrc/64snailgpt.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Submit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>770</y>
+     <width>64</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="qxjyclass.qrc">
+     <normaloff>:/snail/qrc/64gpt.png</normaloff>
+     <normalon>:/snail/qrc/64gpt2.png</normalon>:/snail/qrc/64gpt.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>64</width>
+     <height>64</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="tools2">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>710</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="quit">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/48退出.png</normaloff>:/snail/qrc/48退出.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_text">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>0</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/48保存1.png</normaloff>
+      <normalon>:/snail/qrc/48保存2.png</normalon>:/snail/qrc/48保存1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear_text">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/48清屏1.png</normaloff>:/snail/qrc/48清屏1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pinyin_b">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/48拼音1.png</normaloff>
+      <normalon>:/snail/qrc/48拼音2.png</normalon>:/snail/qrc/48拼音1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="audio">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/48文本语音1.png</normaloff>
+      <normalon>:/snail/qrc/48文本语音2.png</normalon>:/snail/qrc/48文本语音1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="icon">
+     <iconset resource="qxjyclass.qrc">
+      <normaloff>:/snail/qrc/48播放.png</normaloff>
+      <normalon>:/snail/qrc/48暂停.png</normalon>:/snail/qrc/48播放.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <zorder>play</zorder>
+   <zorder>quit</zorder>
+   <zorder>save_text</zorder>
+   <zorder>clear_text</zorder>
+   <zorder>pinyin_b</zorder>
+   <zorder>audio</zorder>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>700</y>
+     <width>1161</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/snail/qrc/hb3.jpg);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear_quest">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>800</y>
+     <width>32</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="qxjyclass.qrc">
+     <normaloff>:/snail/qrc/clear.png</normaloff>:/snail/qrc/clear.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="qianwen_b">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>720</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>阿里</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="xinhuo_b">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>720</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>讯飞</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="wenxin_b">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>720</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>百度</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QWebEngineView" name="answer_Text">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>911</width>
+     <height>681</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>tools1</zorder>
+  <zorder>type_text</zorder>
+  <zorder>listView</zorder>
+  <zorder>Snail_Gpt</zorder>
+  <zorder>Submit</zorder>
+  <zorder>tools2</zorder>
+  <zorder>question_Text</zorder>
+  <zorder>clear_quest</zorder>
+  <zorder>qianwen_b</zorder>
+  <zorder>xinhuo_b</zorder>
+  <zorder>wenxin_b</zorder>
+  <zorder>answer_Text</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QLabel</extends>
+   <header>qwebengineview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="qxjyclass.qrc"/>
+ </resources>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

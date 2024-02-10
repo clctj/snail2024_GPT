@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+       function updateMathJax() {
+	        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "answer-placeholder"]);
+	    }
+    </script>
+    <title>MathJax Example</title>
+    <!-- 引用本地MathJax库 -->
+    <script type="text/javascript" id="MathJax-script" async src="./mathjax/es5/tex-svg.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']]
+                }
+            };
+        });
+    </script>
+    <style>
+        body {
+           font-size: 1.5em;
+           background-color: #eaf1ff; /* 设置为背景 */
+        }
+    </style>
+</head>
+<body>
+<!-- 占位符，用于插入回答内容 -->
+<div id="answer-placeholder"><!-- INSERT_ANSWER_HERE --></div>
+</body>
+</html>

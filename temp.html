@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MathJax Example</title>
+    <!-- 引用本地MathJax库 -->
+    <script type="text/javascript" id="MathJax-script" async src="./mathjax/es5/tex-svg.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            MathJax = {
+                tex: {
+                    inlineMath: [['$', '$'], ['\\(', '\\)']]
+                }
+            };
+        });
+    </script>
+    <style>
+        body {
+           font-size: 1.5em;
+           background-color: #eaf1ff; /* 设置为背景 */
+        }
+    </style>
+</head>
+<body>
+<!-- 占位符，用于插入回答内容 -->
+<div id="answer-placeholder">
+            <img src="qrc:///snail/qrc/gpt_boy.png" />: <span style="color: blue;">a^2-b^2 因式分解</span><br/>
+            <img src="qrc:///snail/qrc/gpt_man.png" />: <p>$$a^2 - b^2 = (a + b)(a - b)$$</p>
+            </div>
+</body>
+</html>
