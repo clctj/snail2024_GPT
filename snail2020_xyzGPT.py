@@ -52,14 +52,14 @@ class Text_win(QWidget, Ui_Text_win):
         if os.path.exists(self.desktop_dir):
             os.chdir(self.desktop_dir)
       # 在子进程中启动HTTP服务器
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        result = sock.connect_ex(('127.0.0.1', PORT))
-        sock.close()
-        if result != 0:  
-            self.httpd_process = None
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # 创建一个TCP套接字
+        result = sock.connect_ex(('127.0.0.1', PORT))  # 尝试连接到指定的IP地址和端口
+        sock.close()  # 关闭套接字
+        if result != 0:  # 如果连接失败
+            self.httpd_process = None  # 将httpd_process设置为None
             self.httpd_process = subprocess.Popen(['nohup', 'python3', '-m', 'http.server', str(PORT)],
             cwd=root_dir+'/mathjax/es5', stdout=open('server.log', 'a'), stderr=subprocess.STDOUT, 
-            close_fds=True)
+            close_fds=True)  # 启动一个子进程来运行http.server模块，并将输出重定向到server.log文件
     def gpt_init(self):#gpt初始化
         # 加载配置文件，这个功能第一次使用，要继续研究，把运行环境都集成到这里，包括提示词
         config_path = os.path.join(root_dir, 'config.json')#寻找配置文件
